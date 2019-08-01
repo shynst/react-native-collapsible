@@ -89,7 +89,7 @@ export default class Collapsible extends Component {
               this.setState(
                 {
                   measuring: false,
-                  measured: true,
+                  measured: false,
                   contentHeight: height,
                 },
                 () => callback(height)
